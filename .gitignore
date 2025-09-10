@@ -1,0 +1,23 @@
+# Ignore environment and secret files
+.env.local
+
+# Python cache
+__pycache__/
+*.pyc
+
+# VS Code settings
+.vscode/
+
+# System files
+.DS_Store
+
+# Jupyter notebooks
+*.ipynb
+
+# Other common ignores
+*.log
+*.sqlite3
+*.db
+
+# Ignore agents submodule if needed
+agents/
